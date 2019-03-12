@@ -1,0 +1,327 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(233, 235, 238);
+
+}
+
+/*--Logo--*/
+.logo {
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+}
+/*---Cover---------------------------------------*/
+#cover {
+    background-image: url(/img/grey.jpg);
+    text-align: center;
+    width: auto;
+    height: 400px;
+    color: white;
+    margin-top: 0px;
+    background-size: cover;
+    background-position: center center;
+    
+    
+    
+   
+} 
+
+/*-------------------------------------------------*/
+
+.titolo {
+    font-size: 43px;
+    font-weight: bold;
+    text-align:center;
+    padding: 10px;
+    color:#2BA4AF;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+}
+
+.sottotitolo {
+    font-weight: bold;
+}
+
+.carosello {
+    padding: 10px;
+}
+
+
+.trattino {
+    width: 60px;
+    height: 10px;
+    background-color: #A6CF50;
+    margin-bottom: 10px;
+    transition: all 1s;
+}
+
+.trattino:hover{
+    width: 250px;
+    background-color: red;
+}
+
+
+
+.paragrafo {
+    background-color: white;
+    margin-bottom: 10px;
+
+
+}
+
+.titolo-paragrafo {
+    font-weight: bold;
+    color:#2BA4AF;
+    text-align: center;
+
+}
+
+.fas {
+    color: #A6CF50;
+    font-weight: bold;
+}
+
+
+.paragrafi{
+    text-align: center;
+    background-color: white;
+}
+
+.navbar-brand {
+    color: #A6CF50;
+    text-transform: uppercase;
+}
+
+
+#footer {
+    background-color:#202028;
+}
+
+.footer-menu a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-menu a:hover{
+    color: red;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 100px;
+    text-align: center;
+    color: #A6CF50;
+
+}
+
+.partners {
+    border: solid 3px;
+    border-color: #A6CF50;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+
+}
+
+.icone {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.text-carousel {
+    color: #A6CF50;
+    font-weight: bold;
+}
+
+.carousel-paragrafo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #A6CF50;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color:#2BA4AF;
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+#cover2 {
+    background-image: url(/img/banner.jpeg);
+    width: auto;
+    height: 250px;
+    color: white;
+    margin-top: 110px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+.nav-item{
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+
+.nav-item a:hover{
+    background-color:#2BA4AF;
+    border-radius: 10px;
+    max-height: 50px;
+}
+
+.immagine{
+    max-width: 300px;
+    height: auto;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-position: center center;
+    position: relative;
+    margin-left:30px;
+}
+
+.clienti{
+    background-color: white;
+}
+
+/*------Animated Base-------------------------*/
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+
+.animated.delay-1s {
+    animation-delay: 1s;
+}
+
+.animated.delay-2s {
+    animation-delay: 2s;
+}
+
+.animated.delay-3s {
+    animation-delay: 3s;
+}
+
+.animated.delay-4s {
+    animation-delay: 4s;
+}
+
+.animated.delay-5s {
+    animation-delay: 5s;
+}
+
+.animated.fast {
+    animation-duration: 800ms;
+}
+
+.animated.faster {
+    animation-duration: 500ms;
+}
+
+.animated.slow {
+    animation-duration: 2s;
+}
+
+.animated.slower {
+    animation-duration: 3s;
+}
+
+@media (print),
+(prefers-reduced-motion) {
+    .animated {
+        animation: unset !important;
+        transition: none !important;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+
+@keyframes bounceInRight {
+
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    from {
+        opacity: 0;
+        transform: translate3d(3000px, 0, 0);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(-25px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(10px, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.bounceInRight {
+    animation-name: bounceInRight;
+}
+/*--------------------------------------------*/
+
+
