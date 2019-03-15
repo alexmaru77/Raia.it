@@ -15,18 +15,19 @@ body {
     background-image: url(/img/grey.jpg);
     text-align: center;
     width: auto;
-    height: 400px;
+    height: 500px;
     color: white;
     margin-top: 0px;
     background-size: cover;
     background-position: center center;
-
+    padding-top: 110px;
 
 
 
 }
 
 /*-------------------------------------------------*/
+
 
 .titolo {
     font-size: 43px;
@@ -91,6 +92,10 @@ body {
     text-transform: uppercase;
 }
 
+.navbar{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    
+}
 
 #footer {
     background-color:#202028;
@@ -179,10 +184,12 @@ li {
 #cover2 {
     background-image: url(/img/nature.jpg);
     width: auto;
-    height: 250px;
+    height: 400px;
     color: blue;
     background-size: cover;
     background-position: center center;
+    margin-top:60px;
+    
 
 }
 
@@ -205,7 +212,7 @@ li {
     height: auto;
     padding: 15px;
     margin-bottom: 10px;
-    margin-left:30px;
+    
 }
 
 .clienti{
