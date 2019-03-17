@@ -219,6 +219,36 @@ li {
     background-color: white;
 }
 
+/*-----------Social Bar---------------------*/
+.social-bar{
+    color:white;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    
+}
+
+.social-bar ul li a{
+    padding: 10px 15px;
+    color:white;
+    transition: all 0.3s ease-out;
+
+}
+
+.social-bar ul li a:hover{
+    padding: 20px 40px;
+}
+
+.fb{background: #3b5998}
+.tw{background: #55acee}
+.yt{background: #ff0000}
+.ln{background: #007bb5}
+.mail{background:yellow}
+
+
+/*------------------------------------------*/
+
 
 
 /*------Animated Base-------------------------*/
