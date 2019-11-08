@@ -202,8 +202,7 @@ li {
 
 
 .nav-item a:hover{
-    background-color:#2BA4AF;
-    border-radius: 10px;
+    border-bottom: 3px solid red;
     max-height: 50px;
 }
 
