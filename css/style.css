@@ -127,11 +127,12 @@ li {
 
 .partners {
     border: solid 3px;
-    border-color: #A6CF50;
+    border-color: #2BA4AF;
     border-radius: 20px;
     margin-bottom: 20px;
     text-align: center;
     margin-top: 20px;
+    background-color: white;
 }
 
 .carousel-caption {
