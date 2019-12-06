@@ -204,8 +204,11 @@ li {
 
 
 .nav-item a:hover{
-    border-bottom: 3px solid red;
+    background-color:#2BA4AF;
+    color: #ff0000;
     max-height: 50px;
+    max-width: 130px;
+ 
 }
 
 .immagine{
